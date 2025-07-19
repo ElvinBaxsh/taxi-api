@@ -1,0 +1,51 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Elvin Məmmədov",
+      "phone": "+994501112233",
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+      "status": "active",
+      "rating": 4.5,
+      "totalVotes": 2,
+      "carId": 1
+    },
+    {
+      "id": 2,
+      "name": "Aysel Hüseynova",
+      "phone": "+994552223344",
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg",
+      "status": "inactive",
+      "rating": 0,
+      "totalVotes": 0,
+      "carId": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "model": "Toyota Prius",
+      "plate": "90-AB-123",
+      "color": "white",
+      "year": 2018
+    },
+    {
+      "id": 2,
+      "model": "Kia Rio",
+      "plate": "10-XY-456",
+      "color": "red",
+      "year": 2020
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "Nicat Quliyev",
+      "pickup": "Nizami",
+      "dropoff": "28 May",
+      "driverId": 1,
+      "price": 6.5,
+      "status": "completed"
+    }
+  ]
+}
